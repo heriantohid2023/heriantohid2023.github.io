@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Web Designer & Developer</title>
+    <link rel="shortcut icon" href="pavicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function() {};
+        var defaultCSS = document.getElementById('bootstrap-css');
+
+        function changeCSS(css) {
+            if (css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="' + css + '" type="text/css" />');
+            else $('head > link').filter(':first').replaceWith(defaultCSS);
+        }
+        $(document).ready(function() {
+            var iframe_height = parseInt($('html').height());
+            window.parent.postMessage(iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="">
+                    <header class="bg-white">
+                        <div class="">
+                            <img src="ava.png" class="card-img-top rounded" alt="">
+                        </div>
+                        <div>
+                            <p class="category"></p>
+
+                            <!-- Nav tabs -->
+                            <div class="card">
+
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#about" role="tab">
+                                                <i class="now-ui-icons objects_umbrella-13"></i>About
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                <i class="now-ui-icons shopping_cart-simple"></i> Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#skill" role="tab">
+                                                <i class="now-ui-icons shopping_shop"></i> Skill
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                <i class="now-ui-icons ui-2_settings-90"></i>Project
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="about" role="tabpanel">
+                                            <h5>Tentang</h5>
+                                            <p>Dosen yang punya hobi ngoding. Belajarnya otodidak. Tujuan belajar programing untuk bantu yang membutuhkan</p>
+                                            <hr>
+                                            <h5>Pentingnya Belajar Programing</h5>
+                                            <p> memberikan kemampuan untuk memahami dan mengoperasikan teknologi dalam dunia yang semakin tergantung pada sistem komputer dan perangkat lunak. Selain itu, pemrograman juga melatih keterampilan pemecahan masalah dan logika yang berguna dalam berbagai bidang pekerjaan</p>
+                                            <hr>
+                                            <h5>Alasan belajar PHP</h5>
+                                            <p> Bahasa Pemprograman PHP popularitasnya tinggi sebagai bahasa pemrograman web, yang mendukung pengembangan situs web dinamis dengan mudah dan memiliki banyak sumber daya dan komunitas dukungan yang luas. Selain itu, PHP juga kompatibel dengan berbagai platform dan memiliki banyak framework yang dapat mempercepat proses pengembangan.</p>
+
+
+
+                                        </div>
+                                        <div class="tab-pane" id="profile" role="tabpanel">
+                                            <p>Herianto</p>
+                                            <hr>
+                                            <p> </p>
+                                            <hr>
+                                            <p>muslimhid@gmail.com</p>
+                                            <hr>
+                                            <button type="button" class="btn btn-success"><a href="https://api.whatsapp.com/send/?phone=62895413075300" role="button"><i class="fab fa-whatsapp" style="color: white;"></i></a></button>
+                                            <hr>
+
+
+
+                                        </div>
+                                        <div class="tab-pane" id="skill" role="tabpanel">
+                                            <p>Jangan percaya, ini skil amatiran &#128513;</p>
+                                            <div class="progress mx-auto">
+                                                <div class="progress-bar bg-success text-left pl-2" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML 92 %</div>
+                                            </div>
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-info text-left pl-2" role="progressbar" style="width: 89%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS 89 %</div>
+                                            </div>
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning text-left pl-2" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP 90 %</div>
+                                            </div>
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-danger text-left pl-2" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MySQL : 80 %</div>
+                                            </div>
+
+                                        </div>
+                                        <div class="tab-pane" id="settings" role="tabpanel">
+                                            <p> <a href="https://herianto.tech/zakat/application/ ">Zakatku</a> </p>
+                                            <hr>
+                                            <p> <a href="https://herianto.tech/skripsi">Research Cost Counter</a> </p>
+                                            <hr>
+                                            <p> <a href="https://marmputri.sch.id/">Portal Madrasah Aliah RM Putri </a> </p>
+                                            <hr>
+                                            <p> <a href="https://stishid.ac.id/">Portal STIS Hidayatullah Balikpapan </a> </p>
+                                            <hr>
+                                            <p> <a href="https://e-journal.stishid.ac.id/">Jurnal STIS Hidayatullah</a> </p>
+                                            <hr>
+                                            <p> <a href="http://repository.stishid.ac.id/">Repository STIS Hidayatullah Balikpapan</a> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </header>
+                    <div class="card-body m-2 d-flex justify-content-center">
+                        <a class="btn btn-primary ml-2" style="" href="https://www.facebook.com/jenderal.moslem/" role="button"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary ml-2" style="" href="https://twitter.com/heri_jameel" role="button"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary ml-2" style="" href="https://www.youtube.com/channel/UCsEjtoAA3461IRJXlkPfVnA" role="button"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- card.// -->
+        </div> <!-- col.//-->
+
+    </div> <!-- row.//-->
+
+
+    </div>
+    <!--container end.//-->
+
+
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>
